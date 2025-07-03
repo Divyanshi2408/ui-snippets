@@ -2,6 +2,7 @@ import React from 'react'
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import CancellationRefundPolicy from "./components/CancellationRefundPolicy";
 import TermsAndConditions from "./components/TermsAndConditions";
+import ShippingAndDelivery from "./components/ShippingAndDelivery";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
    <TermsAndConditions/>
    <PrivacyPolicy/> 
    <CancellationRefundPolicy/>
+   <ShippingAndDelivery/>
    </>
   )
 }
